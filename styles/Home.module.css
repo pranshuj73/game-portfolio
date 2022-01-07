@@ -1,5 +1,4 @@
 .main {
-  margin: 2rem 0;
   min-height: 100vh;
   flex: 1;
   display: flex;
@@ -109,6 +108,9 @@
 
 
 @media (max-width: 768px) and (min-width: 550px) {
+  .main {
+    margin: 2rem 0;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
@@ -122,6 +124,9 @@
 }
 
 @media (max-width: 550px) {
+  .main {
+    margin: 2rem 0;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
