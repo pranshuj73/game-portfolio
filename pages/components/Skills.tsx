@@ -11,7 +11,7 @@ function HexIcon (props: JSX.ElementChildrenAttribute) {
   const shadowColor = '#ffee77';
   return (
     <div style={{position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-      <span style={{color: badgeBg, fontSize: '60px', textShadow: `${shadowColor} 0 -2px 0, ${shadowColor} 0 2px 0, ${shadowColor} -2px 0 0, ${shadowColor} 2px 0 0, ${shadowColor} 0 0 5px`}}>&#x2B22;</span>
+      <span style={{color: badgeBg, fontSize: '60px', textShadow: `${shadowColor} 0 -2px 0, ${shadowColor} 0 2px 0, ${shadowColor} -2px 0 0, ${shadowColor} 2px 0 0, ${shadowColor} 0 0 7px`}}>&#x2B22;</span>
       <div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -25%)',color: iconColor}}>
         {props.children}
       </div>
