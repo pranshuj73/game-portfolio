@@ -24,7 +24,7 @@ const Skills: NextPage = () => {
   return (
     <>
       <h2>Skills</h2>
-      <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around'}}>
+      <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around', maxWidth: '300px'}}>
         <HexIcon><IoLogoPython size={iconSize} /></HexIcon>
         <HexIcon><IoLogoJavascript size={iconSize} /></HexIcon>
         <HexIcon><IoLogoReact size={iconSize} /></HexIcon>
